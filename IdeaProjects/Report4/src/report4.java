@@ -6,7 +6,7 @@ public class report4 {
             System.out.println(str.length());
         } catch (NullPointerException e) {
             System.out.println("NullPointerExceptionが発生しました");
-            System.out.println(e.getMessage());
+            System.out.println(e.getMessage()) ;
         }
     }
 }
