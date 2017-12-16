@@ -1,5 +1,3 @@
-package jp.ac.uryukyu.ie.e175712;
-
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -16,5 +14,6 @@ class EnemyTest {
         }
         assertEquals(heroHP, hero.getHitPoint());
     }
+
 
 }
