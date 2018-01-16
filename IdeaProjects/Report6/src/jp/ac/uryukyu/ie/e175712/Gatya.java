@@ -29,7 +29,7 @@ public class Gatya {
 
             list.add(mon4);
             list.add(mon5);
-
+            //リストをシャッフル
             Collections.shuffle(list);
 
             System.out.println(list.get(0) + "が当たりました！");
