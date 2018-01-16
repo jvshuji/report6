@@ -8,9 +8,10 @@ public class Main {
         Scanner in = new Scanner(System.in);
         String input;
         input = in.nextLine();
+        //論理演算子||を用いて入力が、ガチャ、がちゃ、1、レアガチャ、れあがちゃ、2の6つに対応して動作する
         while (input.equals("ガチャ")||input.equals("がちゃ")||input.equals("1") ==false
                 ||
-                input.equals("レアガチャ")|| input.equals("れあがちゃ")||input.equals("2") == false) {
+                input.equals("レアガチャ")|| input.equals("れあがちゃ")||input.equals("2") == false)
             if (input.equals("ガチャ")||input.equals("がちゃ")||input.equals("1")==true) {
                 Gatya1 gatya1 = new Gatya1();
                 gatya1.Type1();
@@ -27,4 +28,4 @@ public class Main {
             }
         }
     }
-}
+
